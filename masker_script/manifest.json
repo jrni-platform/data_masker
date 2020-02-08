@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "name": "dataMaskerScript",
+  "description": "Data Masker script",
+  "platform": "nodejs12.x",
+  "created_at": "2018-07-19",
+  "updated_at": "2018-07-19",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"AccessPurchase",
+      "description":"When a purchase total is accessed",
+      "type":"Surgeon",
+      "actions": ["after_get_purchase"],
+      "log_type": "None",
+      "enabled": true,
+      "handler": "after_get_purchase"
+    }
+  ]
+}

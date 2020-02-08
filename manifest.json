@@ -1,24 +1,14 @@
 {
   "bbAppManifestVersion":"1.0",
-  "name": "Glenn Test App",
-  "unique_name": "demo",
+  "name": "Data Masker",
+  "unique_name": "data_masker",
   "version": "0.1",
-  "description": "Glenn's test app",
+  "description": "An app that masks certain returend data from the purrchases API",
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
-  "config": true,
-  "panels": [
-  ],
-  "objects": [
-    "task",
-    "task_list",
-    "bb.booking"
-  ],
+  "config": false,
   "script_packs": [
-    "test_script"
-  ],
-  "liquid": [
-    "test_liquid"
+    "masker_script"
   ]
 }
